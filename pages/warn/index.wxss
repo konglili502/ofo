@@ -1,0 +1,73 @@
+/* pages/warn/index.wxss */
+.container{
+  width:100%;
+}
+.title{
+  background-color: #f2f2f2;
+  padding:30rpx 0 30rpx 50rpx;
+  font-size: 27rpx;
+  color:#000;
+}
+.checkbox-group{
+  display:flex;
+  padding:50rpx;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.grids{
+  width:45%;
+  height:100rpx; 
+  border:2px solid #b9dd08;
+  text-align:center;
+  line-height:100rpx;
+  border-radius:6px;
+  margin-top:36rpx;
+}
+.grids:first-child, .grids:nth-of-type(2){
+  margin-top:0;
+}
+.action .action-photos{
+  padding:40rpx 0 40rpx 50rpx;
+}
+.action .action-photos image{
+  position: relative;
+  height:120rpx;
+  width:120rpx;
+  display:inline-block;
+  margin-left:30rpx;
+  margin-top:10rpx;
+  overflow: visible;
+}
+.action .action-photos image icon.del{
+  position:absolute;
+  top:-10rpx;
+  right:-10rpx;
+}
+.action .action-photos text.add{
+  height:120rpx;
+  width:120rpx;
+  text-align:center;
+  line-height: 120rpx;
+  border:2px dotted #ccc;
+  display: inline-block;
+  font-size: 27rpx;
+  color:#ccc;
+  margin-left:30rpx;
+  vertical-align: top;
+}
+.action .action-input{
+  padding:40rpx 0 40rpx 50rpx;
+  border-top:30rpx solid #f2f2f2;
+}
+.action .action-input input{
+  padding-bottom:40rpx;
+  padding-top:40rpx;
+  width:90%;
+}
+.action-input input:first-child{
+  border-bottom:2px dotted #ccc;
+}
+.action .action-submit{
+  padding:40rpx;
+  background-color:#f2f2f2;
+}
